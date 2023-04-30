@@ -1,0 +1,120 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html, body{
+    box-sizing: border-box;
+    padding: 0%;
+}
+header{
+    text-align: center;
+    padding-bottom: 25px;
+    background-color: rgba(207, 206, 206, 0.407);
+    position: relative;
+    box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0);
+}
+
+h1{
+    text-shadow: 1px 2px 2px rgba(53, 52, 52, 0.333);
+    margin: 40px auto;
+    font-stretch: expanded;
+    font-family: 'Neuton', serif;
+    margin-bottom: 25px
+}
+
+header > span{
+    font-size: large;
+    margin-bottom: 65px;
+    font-family: 'Neuton', serif;
+}
+
+.contactContainer{
+    /* position: absolute;
+    bottom: 0;
+    right: 4px; */
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: fit-content;
+}
+.contactField{
+    font-size: smaller;
+    margin: 5px 2px;
+    color: black;
+
+    display: flex;
+    align-items: center;
+}
+
+a{
+    color: black;
+
+}
+
+a > span{
+    font-family: 'Neuton', serif;
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+.contactBody{
+    font-size: medium;
+}
+
+img{
+    width: 25px;
+}
+
+
+/* 
+main > ul{
+    list-style: none;
+} */
+h2{
+    color: rgba(9, 9, 99, 0.945);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ .container{
+    display: flex;
+    flex-direction: row;
+}
+
+.relevanteContainer{
+    padding: 25px;
+    box-shadow: 2px 2px 10px, inset 0 3px 4px rgba(0, 0, 0, 0.797);
+    width: 64%;
+}
+.lessRelevanteContainer{
+    background-color: rgba(105, 104, 104, 0.385);
+    padding: 3px;
+    box-shadow: inset 6px 3px 7px rgba(0, 0, 0, 0.514);
+    width: 35%;
+    /* padding-top: 5vw; */
+}
+
+.lessRelevanteContainer > div,
+.relevanteContainer > div{
+    margin-left: 25px;
+}
+
+.Projects > div{
+    margin-left: 15px;
+} 
+
+footer{
+    position: relative;
+}
+
+footer small{
+    font-weight: bold;
+    position: absolute;
+    bottom: 5px;
+    left: 40vw;
+    color: white;
+}
+
