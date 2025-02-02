@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(250, 247, 224);
+    font-family:  cursive;
+    display: grid;
+    place-items: center;
+
+    padding: 30px;
+}
+
+header {
+    border-bottom: solid 1.5px black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+
+    background-color: rgb(246, 245, 238);
+
+    /* border: solid 1px 0 black; */
+    border-bottom: dashed 1px black;
+    border-top: dashed 1px black;
+
+}
+
+#jobDetails{
+    margin-left: 40px;
+    font-size: small;
+}
+
+#jobDetails > span{
+    text-decoration: underline;
+}
+
+.center {
+    display: grid;
+    place-items: center;
+    place-content: center;
+}
